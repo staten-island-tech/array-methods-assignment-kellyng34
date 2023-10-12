@@ -15,7 +15,7 @@ const foods = [
 function printNames (){
     foods.forEach((food)=> console.log(food.Name));}
 
-printNames()
+// printNames()
 
 function printMenu (){
     foods.forEach((food) => {
@@ -25,7 +25,8 @@ function printMenu (){
     
 }
 
-printMenu()
+// printMenu() 
+
 
 function printYummyMeals (){
     const YummyMeals = foods.filter ((food) => {
@@ -35,4 +36,4 @@ function printYummyMeals (){
     console.log(YummyMeals)
 }
 
-
+printYummyMeals()
